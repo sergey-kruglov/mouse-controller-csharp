@@ -8,19 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f7b1281-9263-4873-bd89-fea6fb46ee96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MouseController/Hubs/MouseControllerHub.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MouseController/libman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MouseController/wwwroot/js/signalr/dist/browser/signalr.js" afterDir="false" />
+    <list default="true" id="3f7b1281-9263-4873-bd89-fea6fb46ee96" name="Changes" comment="feat: add signalr">
+      <change afterPath="$PROJECT_DIR$/MouseController/MacOSWrapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.mouse-controller-csharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.mouse-controller-csharp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MouseController/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MouseController/Pages/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MouseController/Pages/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MouseController/Pages/Privacy.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MouseController/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MouseController/Pages/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MouseController/Pages/Shared/_Layout.cshtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/MouseController/Pages/Shared/_Layout.cshtml.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MouseController/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MouseController/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MouseController/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/MouseController/wwwroot/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MouseController/wwwroot/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/MouseController/wwwroot/js/site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MouseController/Hubs/MouseControllerHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MouseController/Hubs/MouseControllerHub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MouseController/MouseController.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MouseController/MouseController.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +26,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/sk/Development/projects/csharp/mouse-controller-csharp/MouseController/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MouseController/wwwroot/lib/jquery/dist/jquery.min.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/292b05efaa7141b199751f5f5e932566d82000/24/8e3112de/IntPtr.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/292b05efaa7141b199751f5f5e932566d82000/61/6410427f/Marshal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/292b05efaa7141b199751f5f5e932566d82000/93/adcf4e00/StructLayoutAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/292b05efaa7141b199751f5f5e932566d82000/db/d01e234f/Int32.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e7f71f1e85b847c5aec5566a90b895133d000/b6/9c374a5f/RazorPage.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -118,8 +114,17 @@
       <workItem from="1714828868082" duration="798000" />
       <workItem from="1714831738373" duration="2112000" />
       <workItem from="1714833859461" duration="1264000" />
-      <workItem from="1714836240003" duration="6398000" />
+      <workItem from="1714836240003" duration="12636000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: add signalr">
+      <option name="closed" value="true" />
+      <created>1714871474108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714871474108</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +135,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="feat: add signalr" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add signalr" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
